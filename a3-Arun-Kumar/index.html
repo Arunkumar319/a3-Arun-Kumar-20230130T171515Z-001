@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment#3</title>
+</head>
+<body>
+    
+    
+    <h1 style="color:Blue" id="h1">SYST 10199<br> Assignment 3<br>Your Firstname Lastname </h1>
+    <div id="error"></div>
+    <form id="form" method="" action="" name="stud" onsubmit="return validate()">
+        <div>
+            <label>NAME<input type="text" id="name" required></label>
+        </div><br>
+
+        <div>
+            <label> Password<input type="text" id="password">
+            </label>
+        </div><br>
+
+        <div>
+            <label>Confirm Password<input type="text" id="confirm"></label>
+        </div><br>
+
+        <div>
+            <label>
+                Address<input type="text" id="address" required>
+            </label>
+        </div><br>
+
+        <div>
+            <label>city<input type="text" id="city" required></label>
+            <select id="op"
+        <option value="Brampton">Brampton</option>
+        <option value="Missisauga">Missisauga</option>
+        <option value="Toronto">Toronto</option>
+    </select>
+
+        </div><br>
+
+        <div>
+            <label>course<input type="text" id="course" required></label>
+            <select id="cp"
+            <option value="BSC nursing">BSC nursing</option>
+            <option value="B.tech">B.tec</option>
+            <option value="BSC elect">BSC elect</option>
+        </select>
+        </div><br>
+        
+        <button type="submit">Submit</button>
+        
+
+    </form>
+
+<script src="scripts/script1.js"></script>
+
+
+
+</body>
+</html>
